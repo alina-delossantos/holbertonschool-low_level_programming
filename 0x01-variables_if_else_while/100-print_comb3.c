@@ -9,25 +9,24 @@
 
 int main(void)
 {
-  int first = 48, second = 49;
-  while ((first < 57) && (second < 58))
-{
-  if (first != second)
+    int first = 48, second = 48;
+    for (first = 48; first < 57; first++)
     {
-  putchar (first);
-  while (second < 58)
-    {
-      putchar (second);
-      if ((second != 57))
-	{
-	putchar (44);
-      putchar (32);
-	}
-      second++;
+        for (second = first + 1; second < 58; second++)
+        {
+            if (second != first)
+            {
+                putchar (first);
+                putchar (second);
+
+                if ((first < 56) || (second < 57))
+                {
+                    putchar (44);
+                    putchar (32);
+                }
+            }
+        }
     }
-  first++;
- }
- }
-putchar (10);
-return (0);
+     putchar (10);
+    return (0);
 }

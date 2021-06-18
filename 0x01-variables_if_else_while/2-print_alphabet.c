@@ -9,12 +9,12 @@
 
 int main(void)
 {
-  int n = 97;
-  while ((n > 96) && (n < 123))
-    {
-      putchar (n);
-	n++;
-    }
-	putchar (10);
-	 return (0);
+int n = 97;
+while ((n > 96) && (n < 123))
+{
+putchar (n);
+n++;
+}
+putchar (10);
+return (0);
 }

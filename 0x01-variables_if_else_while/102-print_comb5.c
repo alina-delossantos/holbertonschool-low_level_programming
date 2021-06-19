@@ -18,8 +18,6 @@ for (third = 48; third < 58; third++)
 {
 for (fourth = second + 1; fourth < 58; fourth++)
 {
-  if (third != second)
-    {
     putchar(first);
     putchar (second);
     putchar (32);
@@ -31,7 +29,6 @@ putchar (44);
 putchar(32);
     }
     }
-}
 }
 }
 }

@@ -9,25 +9,24 @@
 
 int main(void)
 {
-int first, second, third, fourth;
-for (first = 48; first < 58; first++)
+int first, second;
+
+for (first = 0; first < 100; first++)
 {
-for (second = 48; second < 58; second++)
+for (second = 0; second < 100; second++)
 {
-for (third = 48; third < 58; third++)
+if (first < second)
 {
-for (fourth = second + 1; fourth < 58; fourth++)
-{
-putchar(first);
-putchar (second);
-putchar (32);
-putchar (third);
-putchar(fourth);
-if (first < 57 || second < 56 || third < 57 || fourth < 57)
+putchar((first / 10) + 48);
+putchar ((first % 10) + 48);
+putchar(32);
+putchar ((second / 10) + 48);
+putchar((second % 10) + 48);
+
+if (first < 98 || second < 99)
 {
 putchar (44);
-putchar(32);
-}
+putchar (32);
 }
 }
 }

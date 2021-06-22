@@ -9,7 +9,7 @@
 
 void times_table(void)
 {
-int row, column, product, one, ten; 
+int row, column, product, one, ten;
 
 for (row = 0; row < 10; row++)
 {
@@ -17,7 +17,7 @@ for (column = 0; column < 10; column++)
 {
 
 product = column * row;
-	
+
 if (column == 0)
 {
 _putchar(48);

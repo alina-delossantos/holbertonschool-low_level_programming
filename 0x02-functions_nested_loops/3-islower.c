@@ -1,22 +1,21 @@
 #include "holberton.h"
 
 /**
- * _islower - entry point
+ * _islower - checks for lowercase 
  *
- * Description: checks for lowercase
+ * @c: int
  *
  * Return: void
  */
 
 int _islower(int c)
 {
-  int i;
-  for (i = 0; i < 53; i++)
+  if ((c > 96) && (c < 123))
     {
-      if ((c > 64) && (c < 91))
-	return(1);
-      else
-	return(0);
+  return(1);
     }
-  return(0);	 
+  else
+    {
+    return(0);
+    }
 }

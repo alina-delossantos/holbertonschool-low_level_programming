@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
  * main - entry point
  *
@@ -9,5 +9,13 @@
 
 int main(void)
 {
-
+  char name [] = "Holberton";
+  int i;
+  
+  for (i = 0; i < 10; i++)
+    {
+      _putchar(name[i]);
+    }
+  _putchar(10);
+  return(0);
 }

@@ -9,13 +9,12 @@
 
 int main(void)
 {
-  char name [] = "Holberton";
-  int i;
-  
-  for (i = 0; i < 10; i++)
-    {
-      _putchar(name[i]);
-    }
-  _putchar(10);
-  return(0);
+char name[] = "Holberton";
+int i;
+for (i = 0; i < 10; i++)
+{
+_putchar(name[i]);
+}
+_putchar(10);
+return (0);
 }

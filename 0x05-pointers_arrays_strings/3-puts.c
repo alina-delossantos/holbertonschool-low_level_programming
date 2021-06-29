@@ -1,4 +1,4 @@
-#include "holberton.h"
+0;10;1c#include "holberton.h"
 
 /**
  * _puts - prints a string
@@ -15,7 +15,7 @@ void _puts(char *str)
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
-		str++;
+		i++;
 	}
 	_putchar(10);
 }

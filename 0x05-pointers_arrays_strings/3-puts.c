@@ -1,4 +1,4 @@
-0;10;1c#include "holberton.h"
+#include "holberton.h"
 
 /**
  * _puts - prints a string

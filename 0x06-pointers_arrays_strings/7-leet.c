@@ -1,4 +1,4 @@
-#include "holberton.h"
+0;10;1c#include "holberton.h"
 
 /**
  * leet - entry point
@@ -24,5 +24,5 @@ char *leet(char *str)
 			}
 		}
 	}
-	return(str);
+	return (str);
 }

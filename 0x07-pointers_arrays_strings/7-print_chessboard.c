@@ -20,6 +20,6 @@ void print_chessboard(char (*a)[8])
 			square = a[i][j];
 			_putchar(square);
 		}
-	_puthcar(10);
+	_putchar(10);
 	}
 }

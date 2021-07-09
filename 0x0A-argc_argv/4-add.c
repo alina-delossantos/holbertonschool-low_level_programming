@@ -13,7 +13,7 @@
  * Return: 0
  */
 
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	int i, j;
 	long sum;
@@ -24,10 +24,10 @@ int main(int argc, char * argv[])
 			if (isdigit(argv[i][j]) == 0)
 			{
 			printf("Error\n");
-			return(1);
+			return (1);
 			}
 		sum += atoi(argv[i]);
 	}
 	printf("%ld\n", sum);
-	return(0);
+	return (0);
 }

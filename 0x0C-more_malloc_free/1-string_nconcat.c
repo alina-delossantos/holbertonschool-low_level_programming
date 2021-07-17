@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 	{
 		size2 = n;
-	sizeconc = size1+ n + 1;
+	sizeconc = size1 + n + 1;
 	}
 	ptr = malloc(sizeconc);
 	if (ptr == NULL)

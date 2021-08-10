@@ -19,16 +19,11 @@ int create_file(const char *filename, char *text_content)
 	if (file_desc == -1)
 		return (-1);
 
-	if (text_content == NULL)
-	{
-		size = 0;
-		text_content = "";
-	}
-	else
+	if (text_content)
 	{
 		size = strlen(text_content);
-	}
 	writtenbytes = write(file_desc, text_content, size);
+	}
 
 	if (writtenbytes == -1)
 		return (-1);

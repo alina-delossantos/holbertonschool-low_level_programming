@@ -11,7 +11,7 @@ size_t dlistint_len(const dlistint_t *h)
 {
 	int counter;
 
-	for (counter = o; h; counter++)
+	for (counter = 0; h; counter++)
 	{
 		h = h->next;
 	}

@@ -13,15 +13,15 @@ int main(void)
 
 	for (i = 0; i < 92; i++)
 	{
-		sum = first+ second;
+		sum = first + second;
 		printf("%lu, ", sum);
 
-		first= second;
+		first = second;
 		second = sum;
 	}
-	first_front = first/ 10000000000;
+	first_front = first / 10000000000;
 	second_front = second / 10000000000;
-	first_back = first% 10000000000;
+	first_back = first % 10000000000;
 	second_back = second % 10000000000;
 	for (i = 93; i < 99; i++)
 	{

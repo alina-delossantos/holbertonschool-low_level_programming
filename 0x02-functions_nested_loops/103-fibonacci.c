@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 
 	long int even_sum, sum, first, second;
@@ -28,5 +28,5 @@ int main (void)
 	second = sum;
 	}
 	printf("%li\n", even_sum);
-	return(0);
+	return (0);
 }

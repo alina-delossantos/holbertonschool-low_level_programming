@@ -5,7 +5,9 @@ fx  that returns the perimeter of the island described in grid
 
 
 def island_perimeter(grid):
-
+    """ checks grid permiter
+        1 island, 0 is water
+    """
     size = 0
     if grid is None:
         return size

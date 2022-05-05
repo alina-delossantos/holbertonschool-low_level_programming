@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * leap_list - searches for a value in a sorted list of integers using the jump search algorithm
+ * jump_list - searches for a value in a sorted list of integers using the jump search algorithm
  * @list: pointer to head
  * @size: nbr of nodes
  * @value: value searched
@@ -10,7 +10,7 @@
  *
  * Description: prints valure
  */
-listint_t *leap_list(listint_t *list, size_t size, int value)
+listint_t *jump_list(listint_t *list, size_t size, int value)
 {
 	size_t lap, lap_size;
 	listint_t *node, *leap;
